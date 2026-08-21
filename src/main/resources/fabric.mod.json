@@ -1,22 +1,22 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
-	"version": "${version}",
-	"name": "Example Mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"id": "StuMod",
+	"version": "${1.21.11}",
+	"name": Stu's First Mod",
+	"description": "idk, stu is learning modding!",
 	"authors": [
-		"Me!"
+		"StarixStu!"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "none"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/modid/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"com.stu.firstmod"
 		],
 		"client": [
 			"com.example.client.ExampleModClient"
@@ -30,8 +30,8 @@
 		}
 	],
 	"depends": {
-		"fabricloader": ">=0.19.3",
-		"minecraft": "~26.2",
+		"fabricloader": ">=0.18.1",
+		"minecraft": "~1.21.11",
 		"java": ">=25",
 		"fabric-api": "*"
 	}
